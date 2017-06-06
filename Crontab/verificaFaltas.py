@@ -1,0 +1,275 @@
+#!/usr/bin/python
+#coding: utf-8
+
+__author__ = "BCD"
+__date__ = "18/05/2017"
+
+import cx_Oracle
+import smtplib
+import mysql.connector
+import subprocess
+import os
+import ConfigParser
+import time
+import sys
+
+from datetime import datetime,timedelta
+
+from email.mime.text import MIMEText
+
+
+def abre_mysql():
+    cnx = mysql.connector.connect(
+        user = config.get('mysqlSection', 'user'),
+        password = config.get('mysqlSection', 'password'),
+        host = config.get('mysqlSection', 'host'),
+        database = config.get('mysqlSection', 'database')
+    )
+    cr = cnx.cursor()
+    return (cr,cnx)
+
+def fecha_mysql(cr, cnx):
+    cr.close()
+    cnx.close()
+
+def abre_oracle():
+	con = cx_Oracle.connect(config.get('oracle1Section', 'conexaoOracle1'))
+	cur = con.cursor()
+	return (con,cur)
+
+def abre_oracle_acad():
+	con_acad = cx_Oracle.connect(config.get('oracle2Section', 'conexaoOracle2'))
+	cur_acad = con_acad.cursor()
+	return (con_acad,cur_acad)
+
+def fecha_oracle(cur,con):
+	cur.close()	
+	con.close()
+
+def fecha_oracle_acad(cur_acad,con_acad):
+	cur_acad.close()	
+	con_acad.close()
+
+def envia_email(destino):
+	sender = config.get('smtpSection', 'enviador')
+	receivers =	[destino]
+	message = config.get('smtpSection', 'mensagem')
+	smtpObj = smtplib.SMTP(config.get('smtpSection','servidor'), 25)
+	smtpObj.ehlo()
+	smtpObj.starttls()
+	smtpObj.login(config.get('smtpSection','login'), config.get('smtpSection','senha'))
+	smtpObj.sendmail(sender, receivers, message)         
+	print "E-mail enviado"
+
+def verifica_turma(turma,consecutivo,qtd_dias,upid,result):
+	query = "SELECT NR_MATRICULA FROM ALUNOS WHERE ID_TURMA ="+str(turma)
+	cur_acad.execute(query)
+	alunos_turma = cur_acad.fetchall()
+	qtd_alunos = len(alunos_turma)
+	print qtd_alunos
+	a=0
+	while a < qtd_alunos:
+		print alunos_turma[a][0]
+		verifica_matricula(alunos_turma[a][0],consecutivo,qtd_dias,upid,result)
+		a=a+1
+	
+def verifica_matricula(matricula,consecutivo,qtd_dias,UPid,AFid):
+
+	# Se matricula não esta vazia, o filtro foi configurado por matricula
+	# Pegar do banco de dados oracle o ID do USUARIO referente a matricula do filtro
+	query = "SELECT ID FROM IFSC.USUARIO WHERE MATRICULA="+str(matricula)
+	cur.execute(query)
+	idusuario = cur.fetchone()
+	
+	print ontem_outro
+	# VERIFICAR QUAL HORARIO ESTA ENTRANDO?
+	print idusuario
+	if idusuario is not None:
+		# Verficar se o ID esta presente no dia de hoje na catraca
+		#query = "SELECT ID FROM IFSC.EVENTO WHERE trunc(DATAHORA)="+str(ontem)+" AND IDUSUARIO="+str(idusuario[0])
+		query = "SELECT ID FROM IFSC.EVENTO WHERE trunc(DATAHORA)=to_date("+str(ontem_outro)+", 'YYYY-MM-DD') AND IDUSUARIO="+str(idusuario[0])
+		cur.execute(query)
+		result3 = cur.fetchone()
+		if result3 is None:
+		
+			# Se não esta presente, significa que o aluno faltou
+			print "Aluno Faltou"
+			# Inserir no registro de faltas
+			query = "INSERT INTO Registro_Faltas VALUES (0,"+str(matricula)+","+str(ontem)+","+str(AFid[i][0])+")"
+			cr.execute(query)
+			cnx.commit()
+			print "Inserido nos registros de faltas"
+			# Verificar se o numero de faltas atingiu o limite, pegar o ID do Registro de faltas
+			#query="SELECT RFid from Registro_Faltas WHERE AFid="+str(result[i][0])
+			query="SELECT RFid from Registro_Faltas WHERE AFid="+str(AFid[i][0])+" AND RFid NOT IN (select RFid from Ocorrencia_Faltas)"
+			cr.execute(query)
+			rfid = cr.fetchall()
+			contador = len(rfid)
+			print contador
+		
+			if consecutivo == 0:
+				if contador < qtd_dias:
+					print "Limite não atingido"
+				else:
+					print "Limite Atingido"
+					print rfid	
+					#Enviar email e inserir na lista de ocorrencias
+					query = "SELECT email FROM Usuarios_Permitidos WHERE ativo=1 and UPid ="+str(upid)
+					cr.execute(query)
+					destino = cr.fetchone() 
+					envia_email(destino[0])
+					x=0
+					query = "SELECT MAX(OFid) FROM Ocorrencia_Faltas"
+					cr.execute(query)
+					destino = cr.fetchone() 
+					print destino
+					if destino[0] == None:
+						destino=0
+					else:
+						destino = destino[0]+1 
+					while x < contador:
+						query = "INSERT INTO Ocorrencia_Faltas VALUES ("+str(destino)+","+str(ontem)+","+str(rfid[x][0])+")"
+						print query					
+						cr.execute(query)
+						cnx.commit()
+						x=x+1						
+			else:
+				print "CONSECUTIVO"
+
+				query = "SELECT date_format(data, '%d-%m-%Y') FROM Registro_Faltas WHERE matricula="+str(matricula)+" AND RFid NOT IN (select RFid from Ocorrencia_Faltas)"
+				cr.execute(query)
+				datas = cr.fetchall()
+				date_format = "%d-%m-%Y"
+
+				query = "SELECT RFid FROM Registro_Faltas WHERE matricula="+str(matricula)+" AND RFid NOT IN (select RFid from Ocorrencia_Faltas)"
+				cr.execute(query)
+				rfid_oc = cr.fetchall()
+
+				if contador < qtd_dias:
+					print "Limite não atingido"
+				else:
+					print "Limite Atingido"
+					loop_index = 0
+					rfid_ocorrencia = []
+					valores = []
+
+					while loop_index+1 < contador:
+						data1 = datetime.strptime(datas[loop_index][0], date_format)
+						data2 = datetime.strptime(datas[loop_index+1][0], date_format)
+						
+						if ((data2-data1).days == 1):					
+							print "consecutivo"
+							print rfid_oc[loop_index][0]
+							valores.append(rfid_oc[loop_index][0])
+							rfid_ocorrencia.append(data1)
+							print len(rfid_ocorrencia)
+							if(len(rfid_ocorrencia)==qtd_dias-1):
+								rfid_ocorrencia.append(data2)
+								valores.append(rfid_oc[loop_index+1][0])
+								print rfid_oc[loop_index+1][0]
+				
+								print rfid_ocorrencia
+								print "Inserir nas OCORRENCIAS todos estes valores"
+								#Enviar email e inserir na lista de ocorrencias
+								query = "SELECT email FROM Usuarios_Permitidos WHERE ativo=1 and UPid ="+str(upid)
+								cr.execute(query)
+								destino = cr.fetchone() 
+								envia_email(destino[0])
+								c=0
+								query = "SELECT MAX(OFid) FROM Ocorrencia_Faltas"
+								cr.execute(query)
+								destino = cr.fetchone() 
+								print destino
+								if destino[0] == None:
+									destino=0
+								else:
+									destino = destino[0]+1 
+								while c < qtd_dias:
+									print valores
+									query = "INSERT INTO Ocorrencia_Faltas VALUES ("+str(destino)+","+str(ontem)+","+str(valores[c])+")"
+									print query					
+									cr.execute(query)
+									cnx.commit()
+									c=c+1	
+								break
+						else:
+							print "nao é consecutivo"
+							print data2
+							print data1
+							del rfid_ocorrencia[:]
+							del valores[:]
+						loop_index=loop_index+1
+					
+					
+		else:
+			print "Aluno não faltou"
+	else:
+		print "Matricula inexistente"
+
+
+config = ConfigParser.RawConfigParser()
+config.read('configuracoes.cfg')
+
+query = "SELECT AFid FROM Alertas_Faltas WHERE NOW() < dataFim"
+(cr,cnx) = abre_mysql()
+cr.execute(query)
+result = cr.fetchall()
+tamanho = len(result)
+
+hoje = time.strftime('%Y-%m-%d')
+print hoje
+ontem = datetime.now() - timedelta(days=1)
+ontem = ontem.strftime('\'%Y-%m-%d 00:00:01\'')
+ontem_outro = datetime.now() - timedelta(days=1)
+ontem_outro = ontem_outro.strftime('\'%Y-%m-%d\'')
+print ontem
+i=0
+while i < tamanho:
+
+	query = "SELECT dias_consecutivos,quantidade_dias, matricula, turma, curso, UPid from Alertas_Faltas WHERE AFid=" +str(result[i][0]) 
+	cr.execute(query)
+	result2 = cr.fetchone()
+	consecutivo = result2[0]
+	qtd_dias = result2[1]
+	matricula = result2[2]
+	turma = result2[3]
+	curso = result2[4]
+	upid = result2[5]
+
+	(con,cur) = abre_oracle()
+	(con_acad,cur_acad) = abre_oracle_acad()
+
+	if matricula is not None:		
+		verifica_matricula(matricula,consecutivo,qtd_dias,upid,result)
+
+	elif turma is not None:
+		verifica_turma(turma,consecutivo,qtd_dias,upid,result)
+
+	elif curso is not None:
+		query = "SELECT DISTINCT ID_TURMA FROM ALUNOS WHERE ID_TURMA LIKE '"+str(curso)+"%'" 
+		cur_acad.execute(query)
+		turmas_curso = cur_acad.fetchall()
+		print turmas_curso
+		qtd_turmas = len(turmas_curso)
+		print qtd_turmas
+		b=0
+		while b < qtd_turmas:
+			print turmas_curso[b][0]
+			verifica_turma(turmas_curso[b][0],consecutivo,qtd_dias,upid,result)
+			b=b+1
+
+	else:
+		print "Matricula, turma e curso estao nulos"	
+	
+	i = i+1
+	
+fecha_mysql(cr,cnx)
+fecha_oracle(cur,con)
+fecha_oracle_acad(cur_acad,con_acad)
+
+
+
+
+
+
+
