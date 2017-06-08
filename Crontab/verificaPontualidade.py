@@ -305,6 +305,9 @@ cr.execute(query)
 result = cr.fetchall()
 tamanho = len(result)
 
+(con,cur) = abre_oracle()
+(con_acad,cur_acad) = abre_oracle_acad()
+
 hoje = time.strftime('%Y-%m-%d')
 print hoje
 ontem = datetime.now() - timedelta(days=1)
@@ -327,8 +330,7 @@ while i < tamanho:
 	chegada = result2[6]
 	limiar_tempo = result2[7]
 
-	(con,cur) = abre_oracle()
-	(con_acad,cur_acad) = abre_oracle_acad()
+
 
 	if matricula is not None:		
 		verifica_matricula(matricula,consecutivo,qtd_dias,upid,result,chegada,limiar_tempo)

@@ -90,7 +90,10 @@ O preenchimento de cada campo deve ser feito da seguinte maneira:
 - Comando: a tarefa que deve ser executada.
 
 Desta maneira, para a configuração desejada, devemos incluir a seguinte instrução no arquivo:
+   
+Para que o crontab seja executado de terça a sábado as 2 horas da manhã:
 
 ``` 
-* * * * * * *
+00 02 * * 2-6 root /pathTo/pythonFile/verificaFaltas.py
+00 02 * * 2-6 root /pathTo/pythonFile/verificaPontualidade.py
 ```

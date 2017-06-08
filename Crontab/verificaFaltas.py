@@ -210,6 +210,9 @@ def verifica_matricula(matricula,consecutivo,qtd_dias,UPid,AFid):
 config = ConfigParser.RawConfigParser()
 config.read('configuracoes.cfg')
 
+(con,cur) = abre_oracle()
+(con_acad,cur_acad) = abre_oracle_acad()
+
 query = "SELECT AFid FROM Alertas_Faltas WHERE NOW() < dataFim"
 (cr,cnx) = abre_mysql()
 cr.execute(query)
@@ -236,8 +239,7 @@ while i < tamanho:
 	curso = result2[4]
 	upid = result2[5]
 
-	(con,cur) = abre_oracle()
-	(con_acad,cur_acad) = abre_oracle_acad()
+
 
 	if matricula is not None:		
 		verifica_matricula(matricula,consecutivo,qtd_dias,upid,result)
@@ -262,7 +264,8 @@ while i < tamanho:
 		print "Matricula, turma e curso estao nulos"	
 	
 	i = i+1
-	
+
+print "Saiu!"	
 fecha_mysql(cr,cnx)
 fecha_oracle(cur,con)
 fecha_oracle_acad(cur_acad,con_acad)
