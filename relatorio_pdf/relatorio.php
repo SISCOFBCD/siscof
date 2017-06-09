@@ -129,8 +129,8 @@ function relatorio_aluno_horario($filtro,$ocorrencia){
 	$this->pdf->Cell(0,0," nos seguintes dias:",0,1,"");
 	$this->pdf->Ln(10);
 	$this->pdf->Cell(15, 10, "", 0, 0,"C");
-	$this->pdf->Cell(80,10,"DATA",1,0,"C"); //DATA
-	$this->pdf->Cell(80,10,"HORA",1,1,"C"); //HORA
+	$this->pdf->Cell(80,10,"DATA",1,0,"C");
+	$this->pdf->Cell(80,10,"HORA",1,1,"C"); 
 
 	$resposta = busca_query($query);
 
@@ -152,7 +152,7 @@ function relatorio_turma_horario($filtro,$ocorrencia){
 	$this->pdf->Image("images/logo_horarios.png", 5, 10, 200,40);
 	$this->pdf->SetTitle("Relatório de horário por turma",1);
 
-	$query = "SELECT AH.turma, AH.curso FROM Alertas_Horarios AH INNER JOIN (Registro_Horario R INNER JOIN Ocorrencia_Horario O ON R.RHid = O.RHid AND O.OHid = $ocorrencia) ON AH.AHid = R.AHid";
+	$query = "SELECT AH.turma, AH.curso FROM Alertas_Horarios AH INNER JOIN (Registro_Horario R INNER JOIN Ocorrencia_Horario O ON R.RHid = O.RHid AND O.OHid = $ocorrencia) ON AH.AHid = R.AHid LIMIT 1";
 	$resposta = busca_query($query);
 
 	foreach($resposta as $row){
@@ -163,31 +163,31 @@ function relatorio_turma_horario($filtro,$ocorrencia){
 	$curso = $this->verifica_curso($curso);
 
 
-if($turma ==NULL){
+	if($turma ==NULL){
 
-	if($this->entrada($ocorrencia) == 1){
-		$this->pdf->MultiCell(0,0,iconv('utf-8','iso-8859-1',"Os alunos do curso de $curso chegaram atrasados nos seguintes"),0,"C",0);
-		$this->pdf->Ln(10);
-		$this->pdf->Cell(0,0,"dias:",0,1,"");
+		if($this->entrada($ocorrencia) == 1){
+			$this->pdf->MultiCell(0,0,iconv('utf-8','iso-8859-1',"Os alunos do curso de $curso chegaram atrasados nos seguintes"),0,"C",0);
+			$this->pdf->Ln(10);
+			$this->pdf->Cell(0,0,"dias:",0,1,"");
+		} else {
+			
+			$this->pdf->MultiCell(0,0,iconv('utf-8','iso-8859-1',"Os alunos do curso de $curso saíram cedo nos seguintes"),0,"C",0);
+			$this->pdf->Ln(10);
+			$this->pdf->Cell(0,0,"dias:",0,1,"");
+		}
+
 	} else {
-		
-		$this->pdf->MultiCell(0,0,iconv('utf-8','iso-8859-1',"Os alunos do curso de $curso saíram cedo nos seguintes"),0,"C",0);
-		$this->pdf->Ln(10);
-		$this->pdf->Cell(0,0,"dias:",0,1,"");
-	}
 
-} else {
-
-	if($this->entrada($ocorrencia) == 1){
-		$this->pdf->MultiCell(0,0,iconv('utf-8','iso-8859-1',"Os alunos do curso de $curso, turma $turma, chegaram"),0,"C",0);
-		$this->pdf->Ln(10);
-		$this->pdf->Cell(0,0,"atrasados nos seguintes dias:",0,1,"");
-	} else {
-		$this->pdf->MultiCell(0,0,iconv('utf-8','iso-8859-1',"Os alunos do curso de $curso, turma $turma, saíram cedo nos "),0,"C",0);
-		$this->pdf->Ln(10);
-		$this->pdf->Cell(0,0,"seguintes dias:",0,1,"");
+		if($this->entrada($ocorrencia) == 1){
+			$this->pdf->MultiCell(0,0,iconv('utf-8','iso-8859-1',"Os alunos do curso de $curso, turma $turma, chegaram"),0,"C",0);
+			$this->pdf->Ln(10);
+			$this->pdf->Cell(0,0,"atrasados nos seguintes dias:",0,1,"");
+		} else {
+			$this->pdf->MultiCell(0,0,iconv('utf-8','iso-8859-1',"Os alunos do curso de $curso, turma $turma, saíram cedo nos "),0,"C",0);
+			$this->pdf->Ln(10);
+			$this->pdf->Cell(0,0,"seguintes dias:",0,1,"");
+		}
 	}
-}
 
 	$this->pdf->Ln(10);
 	$this->pdf->Cell(10, 10, "", 0, 0,"C");
@@ -217,14 +217,14 @@ if($turma ==NULL){
 
 function nome($matricula){
 	
-	/*$query_nome = "SELECT NM_PESSOA FROM Alunos WHERE  NR_MATRICULA = $matricula";
+	$query_nome = "SELECT NM_PESSOA FROM Alunos WHERE  NR_MATRICULA = $matricula";
 
 	$resp_o = busca_query_o($query_nome);
 
 	foreach($resp_o as $row){
 		$nome = $row['NM_PESSOA'];
-	}*/
-	return $nome = "DESCOMENTAR";
+	}
+	return $nome;
 }
 
 function entrada($ocorrencia){
