@@ -23,7 +23,7 @@ padrão (OFF).
 
 Depois de alterar o php.ini, reinicie o apache:
 
-# /etc/init.d/apache2  stop
-# /etc/init.d/apache2  start
+/etc/init.d/apache2  stop
+/etc/init.d/apache2  start
 
 
