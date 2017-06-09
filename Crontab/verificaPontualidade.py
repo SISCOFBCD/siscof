@@ -186,7 +186,7 @@ def verifica_matricula(matricula,consecutivo,qtd_dias,UPid,AHid,chegada,limiar_t
 			
 			# Verificar se o numero de faltas atingiu o limite, pegar o ID do Registro de faltas
 			#query="SELECT RFid from Registro_Faltas WHERE AHid="+str(result[i][0])
-			query="SELECT RHid from Registro_Horario WHERE AHid="+str(AHid[i][0])+" AND RHid NOT IN (select RHid from Ocorrencia_Horario)"
+			query="SELECT RHid from Registro_Horario WHERE AHid="+str(AHid[i][0])+" AND matricula="+str(matricula)+" AND RHid NOT IN (select RHid from Ocorrencia_Horario)"
 			cr.execute(query)
 			rhid = cr.fetchall()
 			contador = len(rhid)
