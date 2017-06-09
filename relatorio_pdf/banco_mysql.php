@@ -15,7 +15,6 @@ function busca_query($query){
 		$rows[] = $row;
 	}
 	 
-	mysql_free_result($resposta);
 	fecha_conexao($conexao);
 	return $rows;
 }
