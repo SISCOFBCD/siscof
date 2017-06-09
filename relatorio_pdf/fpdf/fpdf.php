@@ -6,7 +6,7 @@
 * Date:    2015-12-20                                                          *
 * Author:  Olivier PLATHEY                                                     *
 *******************************************************************************/
-require_once('banco.php');
+require_once('banco_mysql.php');
 define('FPDF_VERSION','1.81');
 
 class FPDF
