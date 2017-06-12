@@ -263,7 +263,7 @@ function nome($matricula){
 	foreach($resp_o as $row){
 		$nome = $row['NM_PESSOA'];
 	}
-	return $nome = "NOME DO ALUNO";
+	return $nome;
 }
 
 function entrada($ocorrencia){
