@@ -156,7 +156,7 @@ function relatorio_aluno_horario($filtro,$ocorrencia){
 
 	$this->pdf->SetTitle("Relatório individual de horário",1);
 
-	$query = "SELECT R.matricula, TIME_FORMAT(R.data, '%H:%m:%s') AS hora, DATE_FORMAT(R.data, '%d/%m/%Y') AS data FROM Registro_Horario R INNER JOIN Ocorrencia_Horario O ON R.RHid = O.RHid AND O.OHid <= $ocorrencia AND R.AHid = $filtro";
+	$query = "SELECT R.matricula, TIME_FORMAT(R.data, '%H:%i:%s') AS hora, DATE_FORMAT(R.data, '%d/%m/%Y') AS data FROM Registro_Horario R INNER JOIN Ocorrencia_Horario O ON R.RHid = O.RHid AND O.OHid <= $ocorrencia AND R.AHid = $filtro";
 	$resposta = busca_query($query);
 
 	foreach($resposta as $row){
@@ -236,7 +236,7 @@ function relatorio_turma_horario($filtro,$ocorrencia){
 	$this->pdf->Cell(25,10,"DATA",1,0,"C"); 
 	$this->pdf->Cell(25,10,"HORA",1,1,"C");
 
-	$query = "SELECT R.matricula,TIME_FORMAT(R.data, '%H:%m:%s') AS hora, DATE_FORMAT(R.data, '%d/%m/%Y') AS data FROM Registro_Horario R INNER JOIN Ocorrencia_Horario O ON R.RHid = O.RHid AND O.OHid <= $ocorrencia AND R.AHid=$filtro";
+	$query = "SELECT R.matricula,TIME_FORMAT(R.data, '%H:%i:%s') AS hora, DATE_FORMAT(R.data, '%d/%m/%Y') AS data FROM Registro_Horario R INNER JOIN Ocorrencia_Horario O ON R.RHid = O.RHid AND O.OHid <= $ocorrencia AND R.AHid=$filtro";
 	$resposta = busca_query($query);
 
 	foreach($resposta as $row){
@@ -263,7 +263,7 @@ function nome($matricula){
 	foreach($resp_o as $row){
 		$nome = $row['NM_PESSOA'];
 	}
-	return $nome;
+	return $nome = "NOME DO ALUNO";
 }
 
 function entrada($ocorrencia){
@@ -287,7 +287,7 @@ function verifica_curso($turma){
 		$curso = "Técnico em Telecomunicações";
  	}else if(($turma[0] == '1') &&($turma[1] == '1') && ($turma[2] == '2') ){
 		$curso = "Técnico em Refrigeração";
- 	}else if(($turma[0] == '2') &&($turma[1] == '9') && ($turma[2] == '5') ){ //207
+ 	}else if(($turma[0] == '2') &&($turma[1] == '0') && ($turma[2] == '7') ){ //207
 		$curso = "CST em Telecomunicações";
  	}else if(($turma[0] == '2') &&($turma[1] == '9') && ($turma[2] == '0') ){
 		$curso = "Engenharia de Telecomunicações";
