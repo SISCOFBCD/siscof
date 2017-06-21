@@ -1,0 +1,258 @@
+[02-Feb-2017 17:53:10 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:10 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:10 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../conexao/banco_mysql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:10 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:10 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:10 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../classes/RepositorioEventos.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:10 America/Sao_paulo] PHP Fatal error:  Class 'RepositorioEventos' not found in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 4
+[02-Feb-2017 17:53:53 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:53 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:53 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../conexao/banco_mysql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:53 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:53 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:53 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../classes/RepositorioEventos.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:53 America/Sao_paulo] PHP Fatal error:  Class 'RepositorioEventos' not found in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 4
+[02-Feb-2017 17:53:54 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:54 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:54 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../conexao/banco_mysql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:54 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:54 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:54 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../classes/RepositorioEventos.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:54 America/Sao_paulo] PHP Fatal error:  Class 'RepositorioEventos' not found in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 4
+[02-Feb-2017 17:53:55 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:55 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:55 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../conexao/banco_mysql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:53:55 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:55 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:55 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../classes/RepositorioEventos.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:53:55 America/Sao_paulo] PHP Fatal error:  Class 'RepositorioEventos' not found in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 4
+[02-Feb-2017 17:54:48 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:54:48 America/Sao_paulo] PHP Warning:  include(../../conexao/banco_mysql.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:54:48 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../conexao/banco_mysql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 2
+[02-Feb-2017 17:54:48 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:54:48 America/Sao_paulo] PHP Warning:  include(../../classes/RepositorioEventos.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:54:48 America/Sao_paulo] PHP Warning:  include(): Failed opening '../../classes/RepositorioEventos.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 3
+[02-Feb-2017 17:54:48 America/Sao_paulo] PHP Fatal error:  Class 'RepositorioEventos' not found in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 4
+[02-Feb-2017 17:59:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:14 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:15 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:16 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:31 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:32 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:44 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:45 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:45 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:46 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:46 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:47 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:47 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:48 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:55 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:56 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 17:59:57 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:12 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:15 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:16 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:17 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:39 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:40 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:41 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:41 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:41 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:49 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:00:50 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:05 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:06 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:41 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:01:42 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:02:12 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:02:12 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:02:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:02:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:02:14 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[02-Feb-2017 18:02:14 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 14:08:31 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:03:14 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:05:57 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:05:58 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:05:58 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:05:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:05:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:00 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:00 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:05 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:06 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:06 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:06 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:07 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:07 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:08 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:09 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:10 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:25 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:26 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:27 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:41 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:41 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:42 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:43 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:43 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:44 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:44 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:45 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:45 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:45 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:46 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:46 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:47 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:47 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:48 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:49 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:54 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:55 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:56 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:56 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:57 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:57 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:06:57 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:09 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:10 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:10 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:14 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:14 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:15 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:15 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:16 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:29 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:29 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:30 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:30 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:33 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:39 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:39 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:49 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:50 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:50 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:51 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:51 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:07:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:06 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:07 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:07 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:08 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:08 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:08 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:09 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:09 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:10 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:10 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:11 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:11 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:12 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:56 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:57 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:57 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:58 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:58 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:08:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:00 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:32 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:33 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:33 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:58 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:09:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:10:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:10:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:10:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:10:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:10:13 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:10:20 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:10:20 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 15
+[03-Feb-2017 16:25:14 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:25:15 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:25:16 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:27:24 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:29:44 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:31:12 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:31:16 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:31:25 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:49 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:50 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:50 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:51 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:57 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:58 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:58 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:32:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:33:00 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:33:00 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:33:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:33:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:33:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:33:16 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:33:20 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:33:50 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:34:05 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:37:59 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:38:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:38:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:38:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:40:45 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:43:26 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:44:20 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[03-Feb-2017 16:45:35 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[04-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[05-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[06-Feb-2017 04:00:05 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[07-Feb-2017 04:00:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[07-Feb-2017 04:00:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[07-Feb-2017 16:32:47 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[07-Feb-2017 16:32:47 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[08-Feb-2017 04:00:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[08-Feb-2017 04:00:04 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[09-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[09-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[10-Feb-2017 04:00:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[10-Feb-2017 04:00:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[11-Feb-2017 04:00:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[11-Feb-2017 04:00:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[12-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[12-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[13-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[13-Feb-2017 04:00:02 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[14-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[14-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[15-Feb-2017 04:00:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[15-Feb-2017 04:00:03 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[16-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[16-Feb-2017 04:00:01 America/Sao_paulo] PHP Warning:  strtotime() expects parameter 1 to be string, object given in /home/srv/public_html/intranet/eventos/disparaEmails.php on line 14
+[10-Mar-2017 09:08:37 America/Sao_paulo] PHP Warning:  include(classes/RepositorioCidades.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/teste.php on line 2
+[10-Mar-2017 09:08:38 America/Sao_paulo] PHP Warning:  include(classes/RepositorioCidades.php): failed to open stream: No such file or directory in /home/srv/public_html/intranet/eventos/teste.php on line 2
+[10-Mar-2017 09:08:38 America/Sao_paulo] PHP Warning:  include(): Failed opening 'classes/RepositorioCidades.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/srv/public_html/intranet/eventos/teste.php on line 2
+[10-Mar-2017 09:08:38 America/Sao_paulo] PHP Fatal error:  Class 'RepositorioCidades' not found in /home/srv/public_html/intranet/eventos/teste.php on line 3
+[10-Mar-2017 09:45:15 America/Sao_paulo] PHP Fatal error:  Call to a member function query() on a non-object in /home/srv/public_html/intranet/eventos/buscarCidades.php on line 7
+[10-Mar-2017 09:45:19 America/Sao_paulo] PHP Fatal error:  Call to a member function query() on a non-object in /home/srv/public_html/intranet/eventos/buscarCidades.php on line 7
