@@ -10,8 +10,8 @@ define ("db","ControleDeFrequencia");
 	//variaveis para conexao com o banco MySQL local
 	if (!defined("host")) define ("host","localhost");
 	if (!defined("user")) define ("user","root");
-	if (!defined("pw")) define ("pw","");
-	if (!defined("db")) define ("db","ControleDeFrequencia");
+	if (!defined("pw")) define ("pw","mysqladmin");
+	if (!defined("db")) define ("db","siscof");
 
 	if(!function_exists("db_mysql")) {
 		//funcao para conexao com o mysql

@@ -16,18 +16,21 @@ include_once ('relatorio.php');
 	$AF_ou_AH = $_GET["por"];
 	
 	if($AF_ou_AH == 1) {// O alerta ou filtro é por Faltas (AF)
-		if ($tipo == 1) // O alerta é por aluno
+		/*if ($tipo == 1) // O alerta é por aluno
 			$doc=$doc->relatorio_aluno_falta($filtro,$ocorrencia);
 		if ($tipo == 2) // O alerta é por matrícula
-			$doc=$doc->relatorio_turma_falta($filtro,$ocorrencia);
+			$doc=$doc->relatorio_turma_falta($filtro,$ocorrencia);*/
+			$doc->relatorio_falta($filtro,$ocorrencia); 
+			
 	} else if ($AF_ou_AH == 2) {// O alerta ou filtro é por Horário (AH)
-		if ($tipo == 1) // O alerta é por aluno
+		/*if ($tipo == 1) // O alerta é por aluno
 			$doc=$doc->relatorio_aluno_horario($filtro,$ocorrencia);
 		if ($tipo == 2) // O alerta é por matrícula
-			$doc=$doc->relatorio_turma_horario($filtro,$ocorrencia);
+			$doc=$doc->relatorio_turma_horario($filtro,$ocorrencia);*/
+			$doc->relatorio_horario($filtro,$ocorrencia); 
 	}
 	
-	$doc->Output();
+	//$doc->Output();
 
 ?>
 
